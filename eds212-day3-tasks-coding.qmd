@@ -1,0 +1,32 @@
+---
+title: "eds212-day3-tasks-coding"
+author: "Takeen Shamloo"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+# Day 2 Tasks: Coding Practice ----
+
+```{r}
+# Creating vectors a and b ----
+vecA <- c(1,6)
+vecB <- c(2,4)
+```
+
+# Vector operations ----
+
+```{r}
+# a) vecA + vecB
+print(vecA + vecB)
+
+# b) vecB - vecA
+print(vecB - vecA)
+
+# c) 2 * vecA
+print(2 * vecA)
+
+# d) vecA dot vecB
+print(sum(vecA * vecB))
+```
+
